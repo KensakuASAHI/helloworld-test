@@ -7,5 +7,5 @@ jobs:
        - checkout
        - run:
            command: |
-             gcc -o hello hello.c
+             make
              ./hello
